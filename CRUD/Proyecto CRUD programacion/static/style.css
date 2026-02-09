@@ -1,0 +1,23 @@
+:root {
+    --crema-bg: #fdfaf1;
+    --accent: #d4a373;
+    --white: rgba(255, 255, 255, 0.8);}
+body {
+    background-color: var(--crema-bg);
+    font-family: 'Quicksand', sans-serif;
+    display: flex; justify-content: center; padding: 20px;}
+.glass-app {
+    width: 100%; max-width: 1100px;
+    background: var(--white); backdrop-filter: blur(10px);
+    border-radius: 25px; padding: 30px; border: 1px solid white;}
+.card { background: white; border-radius: 15px; padding: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.03); }
+.animate-slide-in { animation: slide 0.5s ease-out; }
+@keyframes slide { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+input, textarea {
+    width: 100%; padding: 12px; margin: 8px 0;
+    border: 1px solid #eee; border-radius: 10px; transition: 0.3s;}
+input:focus { border-color: var(--accent); outline: none; transform: scale(1.01); }
+.btn-primary {
+    background: var(--accent); color: white; border: none;
+    width: 100%; padding: 12px; border-radius: 10px; cursor: pointer;}
+.msg { background: #a3b18a; color: white; padding: 10px; border-radius: 8px; margin-bottom: 10px; text-align: center; }
