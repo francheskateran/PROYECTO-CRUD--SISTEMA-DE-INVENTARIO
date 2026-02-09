@@ -5,7 +5,7 @@
 Este proyecto consiste en el desarrollo de un módulo funcional de mantenimiento (CRUD) para una tabla maestra de productos, desarrollado bajo la arquitectura *MVC* y utilizando el stack *Flask (Python) + MySQL*.
 
 ## 🚀 Integrantes
-* Andrés Flores C.I 31.345.684
+* ANDRÉS FLORES C.I 31.345.684
 * ALBANY ARRAIZ C.I: 31.528.019
 * FRANCHESKA TERÁN C.I: 31.223.802
 * MIGUEL SOLÓRZANO – C.I: 31.962.184
